@@ -1,0 +1,516 @@
+.title-we{
+    position: absolute;
+    width: 223px;
+    height: 194px;
+    left: 111px;
+    top: 257px;
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 194px;
+    color: #585858;
+ }
+
+.title-are {
+    position: absolute;
+    width: 177px;
+    height: 116px;
+    left: 322px;
+    top: 326px;
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 116px;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+}
+
+
+.title-paca{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 480px;
+ 
+}
+
+.title-discp{
+    position: absolute;
+    width: 670px;
+    height: 107px;
+    left: 454px;
+    top: 517px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ACACAC;
+}
+
+.know-more-btn{
+    position: absolute;
+    width: 225px;
+    height: 46px;
+    left: 899px;
+    top: 620px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.know-more{   
+    position: absolute; 
+    top: 15px;
+    left: 15px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ACACAC;
+    }
+
+.right-arrow{
+    position: relative;
+    left: 10px;
+}    
+/* blog list */
+.blog-heading{
+    
+    position: absolute;
+    width: 204px;
+    height: 24px;
+    left: 58px;
+    top: 875px;
+    
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #C01F3E;
+    }
+    
+    .blog-list{
+    float: left;
+    position: absolute;
+    width: 1309px;
+    height: 325px;
+    left: 58px;
+    top: 935px;
+    display: flex;
+    overflow-x: auto;
+    }
+ /* .blog-list::-webkit-scrollbar{ */
+        /* width: 10px;
+    } */
+    .blog-card{
+       min-width: 200px;
+        height: 245px;
+        float: left;
+        margin-right: 22px;
+        margin-left: 22px;
+        border-width: 0px;
+    }
+    .blog-pic{
+        height:240px;
+        width: 200px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .blog-discription{
+        position: relative;
+        margin-top: 20px;
+        width: 200px ;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .other-art{
+        position: absolute;
+    width: 102px;
+    height: 22px;
+    left: 58px;
+    top: 1343px;
+    
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C01F3E;
+    }
+
+    .components-card1-list ul{
+        position: absolute;
+        height: 49px;
+        top: 1399px;
+        left: 58px;
+        list-style: none;
+    }
+    .components-card1-list ul li{
+        float: left;
+        margin-right: 26px;
+        background: #FFFFFF;
+         box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+         width: 200px;
+         text-align: center;
+    }
+ 
+    .viewall{
+        
+    position: absolute;
+
+    left: 1234px;
+    top: 1289px;
+    border-color: #2C2C2C;
+    background: #FFFFFF;
+    border-radius: 5px;
+    
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);   
+    }
+    .viewall p{
+        position: absolute;
+        top: 1px;
+    width: 100px;
+    height: 22px;    
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ACACAC;
+    }
+.sub-text{
+    position: absolute;
+width: 427px;
+height: 32px;
+left: 593px;
+top: 1477.71px;
+
+font-family: Calibri;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #8A8A8A;
+}  
+
+.subscription-box{
+    position: absolute;
+    left: 80%;
+    /* top: 1482px; */
+top: 1477.71px;
+    background: #C01F3E;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+
+}
+.sub{
+   position: relative;
+   top: 1px;
+   left: 10px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F4F4F4;
+   
+    }
+   
+
+    /* end of blog section */
+
+.stats-title{
+    position: absolute;
+width: 913px;
+height: 58px;
+left: 251px;
+top: 1619px;
+
+font-family: LEMON MILK;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+display: flex;
+align-items: center;
+
+color: #C4C4C4;
+
+}
+
+.stats-title h1{
+    position: relative;
+    left: 10px;
+    top: -10px;
+    font-size: 56px;
+}
+
+.stats-title p{
+    position: relative;
+    left: 20px;
+}
+.stats-img{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 1532px;
+}
+
+
+.colab-text{
+    position: absolute;
+    left: 209px;
+    top: 2428px;
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 70px;    
+    color: #585858;
+}    
+#d{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-size: 56px;
+    float: right;
+}
+.colab-std{
+    position: absolute;
+width: 203px;
+height: 208px;
+left: 181px;
+top: 2613px;
+}
+.colab-std-dot{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 225px;
+top: 2809px;
+}
+.colab-std-name{
+    position: absolute;
+width: 89px;
+height: 24px;
+left: 238px;
+top: 2692px;
+
+font-family: LEMON MILK;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.colab-edu{
+    position: absolute;
+width: 204px;
+height: 208px;
+left: 580px;
+top: 2613px;
+
+}
+
+.colab-edu-dot{
+    
+position: absolute;
+width: 24px;
+height: 24px;
+left: 627px;
+top: 2809px;
+}
+
+.colab-edu-name{
+    position: absolute;
+width: 148px;
+height: 48px;
+left: 610px;
+top: 2692px;
+
+font-family: LEMON MILK;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.colab-cmp{
+    position: absolute;
+width: 203px;
+height: 208px;
+left: 1010px;
+top: 2609px;
+}
+.colab-cmp-dot{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 1061px;
+top: 2817px;
+
+}
+
+.colab-cmp-name{
+    position: absolute;
+width: 101px;
+height: 24px;
+left: 1061px;
+top: 2692px;
+
+font-family: LEMON MILK;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.colab-invite{
+    position: absolute;
+width: 290px;
+height: 32px;
+left: 548px;
+top: 2915px;
+
+font-family: LEMON MILK;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #C4C4C4;
+}
+
+.colab hr{
+    position: absolute;
+width: 361px;
+height: 0px;
+left: 512px;
+top: 2947px;
+
+border: 1px solid #C4C4C4;
+}
+
+.colab-info-btn{
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 554px;
+    top: 2970px;
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+.colab-info-text{
+    position: relative;
+    top: 5px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ACACAC;
+}
+
+
+.ill-together-gif{
+    position: absolute;
+width: 477.35px;
+height: 254.54px;
+left: 88px;
+top: 3148px;
+}
+
+.ill-group-img{
+    position: absolute;
+width: 500px;
+height: 508px;
+left: 656px;
+top: 3044px;
+}
+.ill-phone-img{
+    position: absolute;
+    width: 389px;
+    height: 389px;
+    left: 100px;
+    top: 3417px;
+}
+
+.we-r-incl{
+    position: absolute;
+width: 833px;
+height: 70px;
+left: 483px;
+top: 3596px;
+font-family: LEMON MILK;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+text-align: center;
+color: #0B379B;
+}
+.come-join-us{
+    position: absolute;
+width: 833px;
+height: 70px;
+left: 483px;
+top: 3676px;
+
+font-family: Calibri;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 70px;
+/* identical to box height, or 194% */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #C01F3E;
+}
+
+footer{
+    position: absolute;
+    width: 1367px;
+    height: 382px;
+    left: 0px;
+    top: 3834px;
+}

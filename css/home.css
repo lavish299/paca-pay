@@ -1,0 +1,140 @@
+.banner-deck{
+    margin-top: 150px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.banner:hover{
+    margin-bottom: -3px;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.banner{
+    margin: 10px;
+    width: 300px;
+    height: 500	px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-transition: 200ms ease-in-out;
+    -o-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.banner h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 375px;
+    margin-bottom: 25px;
+    /* line-height: 110%; */
+    text-align: center;
+    font-weight: 80;	
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+.one {
+    background: url('https://amandalippert.files.wordpress.com/2011/03/lippert_cyberbullying1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.two {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/60a16532474297.5605be5016d1d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.three {
+    background: url('https://th.bing.com/th/id/OIP.Uj2dMAg5JIsDQg46fQZ4KwHaKX?pid=Api&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.four {
+    background: url('https://latimeshighschool.files.wordpress.com/2017/11/4f2efe66-e112-455b-b217-9fd65117da4a.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-fluid{
+    position: relative;
+    text-align: center;
+    /* color: white; */
+}
+
+
+.bottom-right {
+    position: absolute;
+    width: inherit;
+    /* background-color: grey; */
+    /* bottom: 60px; */
+}
+
+
+.parallax {
+    margin-top:30px;
+    /* Set a specific height */
+    min-height: 400px; 
+    filter: brightness(0.5);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax1{
+    /* The image used */
+    background-image: url("../images/cyber1.jpg");
+}
+#parallax2{
+    /* The image used */
+    background-image: url("../images/image.jpg");
+}
+#parallax3{
+    /* The image used */
+    background-image: url("../images/cyberbully.jpg");
+}
+@media only screen and (max-width: 600px)
+{
+    .banner-deck {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+}
+
+
+
+
+.carousel-item img {
+    width: 80%;
+    margin: 0 auto;
+    transform: scale(0.5);
+}

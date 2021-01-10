@@ -1,0 +1,109 @@
+/* #cyber1, #cyberbully, #cyberdefame, #cyberstalk, #image, #law_img */
+
+.parallax {
+    /* The image used */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cyber1.jpg");
+    /* Set a specific height */
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    margin-top: -40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    /* background: rgb(116, 116, 116); */
+}
+
+.parallax h2 {
+    color: white;
+    line-height: 300px;
+    vertical-align: middle;
+}
+
+
+/* ID's are gives according to image name. To create a parallax effect use the class parallax and add an id to select 
+a particular image */
+
+#cyber1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cyber1.jpg");
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#cyberbully {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cyberbully.jpg");
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#cyberdefame {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cyberdefame.png");
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#cyberstalk {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cyberstalk.jpg");
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#image {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/image.jpg");
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#law_img {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/law_img.jpg");
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#parallax1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-right {
+    position: absolute;
+    top:40%;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow{
+       from{
+           text-shadow: 0 0 20px crimson;
+       }
+       to{
+        text-shadow: 0 0 20px crimson,0 0 10px crimson;
+    }
+}
